@@ -1,0 +1,54 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(rgb(4, 43, 4));
+
+}
+.box{
+width: 30%;
+margin: 10% 30%;
+padding: 5% 5%;
+background-color: white;
+}
+input[type="text"]{
+ padding: 2%;
+ font-size: 16pt; 
+ border-radius: 3px;
+ border: 0.5px solid #ccc;
+ width: 78%;
+ margin: 20px 5px 3px 5px; 
+  
+}
+input[type="time"]{
+ padding: 2%;
+ font-size: 16pt; 
+ border-radius: 3px;
+ border: 0.5px solid #ccc;
+ width: 63%;
+ margin: 0px 5px 20px 5px; 
+  
+}
+button{
+    padding: 0% 4% 5px 4%;
+    background-color: rgb(89, 21, 177);
+    border: none;
+    font-size: 2em;
+    color: white;
+    border-radius: 3px ;
+}
+#result ul{
+    list-style: none;
+}
+#result ul li{
+    background-color: rgb(204, 204, 204 0.4);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#result ul li{
+    background-color: red;
+    color: white;
+}
